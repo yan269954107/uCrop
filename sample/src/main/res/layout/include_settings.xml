@@ -80,6 +80,13 @@
                     android:text="@string/label_freestyle_crop"
                     android:textAppearance="?android:textAppearanceMedium" />
 
+                <CheckBox
+                    android:id="@+id/checkbox_aspect_ratio_fixed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aspect_ratio_fixed"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
                 <RadioButton
                     android:id="@+id/radio_dynamic"
                     android:layout_width="match_parent"
